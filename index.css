@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    cursor: pointer;
+}
+header{
+    display:grid;
+    grid-template-columns: 80% 1fr;
+    padding-top: 1.8em;
+    padding-bottom: 1.5em;
+    border-bottom: solid 3px #DADBDD;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.arrow{
+    width:10px;
+    height:10px;
+}
+.falsearrow{
+    width:10px;
+    height:10px;
+    visibility: hidden;
+}
+.get-btn{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:130px;
+    height:43px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.section1{
+    display:grid;
+    grid-template-columns: 25% 1fr 25%;
+    padding: 3em 0em 2.5em 0em;
+}
+.subsection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-icons{
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+#bees{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #2A7E19;
+    border: 5px solid transparent;
+}
+#trees{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #eeb21b;
+    border: 5px solid transparent;
+}
+.title{
+    font-size:110px;
+    font-family: "Satisfy", cursive;
+    font-weight: 100;
+}
+.writeup{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.writeup h3{
+    width:65%;
+    font-weight: bold;
+}
+.problem{
+    padding:2em 0em 3em 0em;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.problem h1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 45px;
+    border-top: solid 3px #DADBDD;
+    border-bottom: solid 3px #DADBDD;
+    height:170px;
+    width:100%;
+    text-align: center;
+}
+.problem-set{
+    padding: 50px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.problem-card{
+    box-shadow: 10px 10px #2A7E19;
+    border: solid 3px #DADBDD;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.problem-card:nth-child(1){
+    box-shadow: 10px 10px #eeb21b;
+}
+.problem-image{
+    width:300px;
+    height:250px;
+}
+.problem-text{
+    height:175px;
+}
+.solution{
+    padding:2em 0em 3em 0em;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.solution h1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 45px;
+    border-top: solid 3px #DADBDD;
+    border-bottom: solid 3px #DADBDD;
+    height:170px;
+    width:100%;
+    text-align: center;
+}
+.solution-set{
+    padding: 50px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.solution-card{
+    box-shadow: 10px 10px #2A7E19;
+    border: solid 3px #DADBDD;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 10px;
+    padding: 10px;
+}
+.solution-card:nth-child(1){
+    box-shadow: 10px 10px #eeb21b;
+}
+.solution-text{
+    border: solid 3px #DADBDD;
+    height:250px;
+    width:50em;
+    margin-inline:10px;
+    padding-inline: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.solution-image{
+    width:350px;
+    height:300px;
+}
+.list-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block:3em;
+}
+footer{
+    background-color: #e6e7e9;
+    padding: 20px;
+}
+.footer-list ul{
+    list-style-type:none;
+    font-size: 20px;
+}
+.footer-list ul li{
+    padding:7px;
+}
+.footer-list ul li:hover{
+    text-decoration: underline;
+}
+.email{
+    align-self: flex-start;
+}
+.copy{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signature{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#signature{
+    width: 100px;
+    height:100px;
+}
