@@ -66,14 +66,14 @@ nav .nav{
     width:180px;
     height:180px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #2A7E19;
+    box-shadow: 0 0 0 6px #2A7E19;
     border: 5px solid transparent;
 }
 #trees{
     width:200px;
     height:200px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #eeb21b;
+    box-shadow: 0 0 0 7px #eeb21b;
     border: 5px solid transparent;
 }
 .title{
