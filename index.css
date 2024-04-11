@@ -8,6 +8,8 @@ body{
     cursor: pointer;
 }
 header{
+    background-color: #eeb21b;
+    color: white;
     display:grid;
     grid-template-columns: 80% 1fr;
     padding-top: 1.8em;
@@ -28,6 +30,7 @@ nav .nav{
 .arrow{
     width:10px;
     height:10px;
+    filter:invert(1)
 }
 .falsearrow{
     width:10px;
